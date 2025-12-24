@@ -38,10 +38,12 @@ function App() {
     <div className="container">
       <div className="card">
         <header className="header">
-          <img src={logo} alt="logo" className="logo" />
+          <div className="logo-wrap">
+            <img src={logo} alt="logo" className="logo" />
+          </div>
 
-          <h1>Автошкола ЗМСТК</h1>
-          <p>Твій шлях до впевненого водіння починається тут</p>
+          <h1>Автошкола ЗМСТК ТСО України</h1>
+          <p>Вчимо керувати безпечно, впевнено та із задоволенням</p>
         </header>
 
         <div className="links-list">
@@ -62,9 +64,15 @@ function App() {
         </div>
 
         <footer className="footer">
-          <p>м. Знам'янка, вул. Київська, 23</p>
           <a href="tel:+380503411049" className="phone-button">
             Зателефонувати нам
+          </a>
+          <a
+            href="https://www.google.com/maps/place/%D0%90%D0%B2%D1%82%D0%BE%D1%88%D0%BA%D0%BE%D0%BB%D0%B0+%D0%97%D0%9C%D0%A1%D0%A2%D0%9A+%D0%A2%D0%A1%D0%9E%D0%A3/@48.7167109,32.6869335,20z/data=!4m6!3m5!1s0x40d08d412b26ca47:0x76df939202ed45cd!8m2!3d48.7167108!4d32.6871142!16s%2Fg%2F11vd70xjqj?authuser=0&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D"
+            target="blank"
+            className="addr"
+          >
+            м. Знам'янка, вул. Київська, 23
           </a>
         </footer>
       </div>
